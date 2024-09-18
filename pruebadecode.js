@@ -1,0 +1,4 @@
+const jwt_decode = require('jwt-decode');
+
+const testToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9zY2FyYmVuaXRlczIwMTFAZ21haWwuY29tIiwic3ViIjoiNjZlNGM3YmQyOTlmNTM2NDlhZTc5OTBlIiwiaWF0IjoxNzI2NTIxMDg4LCJleHAiOjE3MjY1MjQ2ODh9.2swuxsxbRmOETge5PnjTSqcb9c7yopAivpWC8JJIbro';
+console.log(jwt_decode(testToken));

@@ -1,0 +1,67 @@
+/* src/app/admin/style.module.css */
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: #343a40; /* Gris oscuro */
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3); /* Sombra más prominente */
+    color: #f8f9fa;
+    position: fixed;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.navButton {
+    display: block;
+    color: #ffffff; /* Color del texto del botón */
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #007bff; /* Azul brillante para el fondo del botón */
+    border: none; /* Quitar el borde del botón */
+    transition: all 0.3s ease; /* Transiciones suaves */
+    cursor: pointer; /* Cambiar el cursor a mano */
+}
+
+.navButton:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+    color: #ffffff; /* Color del texto al pasar el ratón */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra al pasar el ratón */
+    transform: translateX(5px); /* Efecto sutil de desplazamiento */
+}
+
+.logoutButton {
+    position: absolute;
+    bottom: 20px;
+    width: calc(100% - 40px);
+    text-align: center;
+    background-color: #dc3545; /* Rojo fuerte para el botón de cerrar sesión */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease; /* Transición para el botón */
+}
+
+.logoutButton:hover {
+    background-color: #c82333; /* Rojo más oscuro al pasar el ratón */
+}
+
+.content {
+    margin-left: 260px;
+    padding: 20px;
+    flex: 1;
+}
